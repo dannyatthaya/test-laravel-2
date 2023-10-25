@@ -10,4 +10,4 @@
 Note:
   - Make sure `composer` installed.
   - Make sure `node` version 18 installed.
-  - Make sure `redis` installed.
+  - Make sure `redis` installed. (I'm using `sync` driver for now, my PC cannot install WSL so it might be successful when trying using `redis` driver)
