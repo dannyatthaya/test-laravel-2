@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->job(new CurrencyScrape)
-            ->cron('* * * * *');
+            ->cron('*/7 * * * *');
     }
 
     /**
